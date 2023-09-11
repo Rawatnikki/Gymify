@@ -1,0 +1,582 @@
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+body{
+background-color: black;
+font-family: "Roboto", sans-serif;
+color: white;
+}
+nav{
+    position: sticky;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+    box-shadow: 0px 2px 6px 2px rgb(77, 75, 75);
+    color: white;
+}
+nav i{
+    color:white;
+    font-size:30px ;
+    margin-right: 35px;
+    margin-top: 10px;
+}
+nav h1{
+    
+     font-size: 50px;
+     margin-left: -33px;
+     color:green;
+     text-shadow: 2px 3px 4px rgb(5, 121, 5);
+}
+nav ul li  {
+    display: inline-block;
+    margin-inline: 15px;
+   padding :5px;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav ul li a:hover{
+    background-color: green;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+ nav ul li button{
+    width:100px;
+    height: 33px;
+    background-color: rgb(3, 80, 3);
+   font-size: 18px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    color:white;
+}
+ nav ul li button:hover{
+    border: 2px solid white;
+    background-color: green;
+    color:white;
+    cursor: pointer;
+    height:38px;
+   
+
+    
+}
+.hangburger{
+    display: none;
+}
+
+
+ /*nav ul li {
+    list-style: none;
+}
+nav ul{
+    margin-left: -33px;
+    margin-top: 4px;
+    margin-right: 63px;
+}*/
+.logo img {
+    font-size: 30px;
+    margin-left: 15px;
+    color: green;
+    width :60px;
+    margin-top: -1px;
+
+}
+ 
+
+/* main */
+.home{
+    display: flex;
+    justify-content: center;
+}
+.bg {
+    position: relative;
+    text-align: center;
+    color:white;
+}
+.bg img{
+    width :100%;
+    margin-top: 14px;
+   
+}
+.home .homeText{
+margin-top:150px;
+position: absolute;
+top: 20%;
+left:35%;
+transform: translate(-50%, -50%);
+padding: 2px;
+}
+.homeText h1{
+    font-size: 55px;
+    color: green;
+}
+.homeText h3{
+    margin:22px;
+}
+.homeText button{
+    width:100px;
+    height: 30px;
+    background-color: rgb(3, 80, 3);
+    border: none;
+    color:white;
+    font-size: 18px;
+    border-radius: 10px; 
+}
+.homeText button:hover{
+   
+    background-color:green;
+    transition: 0.5s;
+    color:white;
+    width:105px;
+    height:35px;
+    cursor: pointer;
+}
+.head{
+    text-align: center;
+    padding:40px;
+    font-size: 25px;
+}
+.head span{
+    color: rgb(14, 172, 14);
+    text-shadow: 2px 2px 4px rgb(8, 114, 8);
+   
+}
+.ourProgram{
+    display: flex;
+    justify-content: center;
+
+}
+.ourProgram .crd{
+    margin-inline: 30px;
+    text-align: center;
+}
+.ourProgram .crd img{
+    width:200px;
+    padding: 3px;
+}
+.ourProgram .crd img:hover{
+    width: 220px;
+   
+    background-color: transparent;
+   
+}
+.ourProgram .crd h3{
+    color: green;
+    margin-top: 22px;
+}
+.ourProgram .crd h4{
+    margin-top: 10px;
+}
+/*
+.ourProgram{
+    display :flex;
+    justify-content: center;
+    
+}
+ .ourProgram .crd1{
+    margin-inline: 22px;
+    text-align: center;
+   
+}
+.ourProgram .crd1 img{
+    width:200px;
+    margin-left: 10px;
+    padding : 3px ;
+
+}
+.ourProgram .crd1 img:hover{
+    width: 220px;
+   
+    background-color: transparent;
+   
+}
+.ourProgram .crd1 h3{
+    color: green;
+}
+
+
+.ourProgram .crd2 img{
+    width:150px;
+    align-items: center;
+   
+
+}
+.ourProgram .crd2 img:hover{
+    width:180px;
+    background-color: transparent;
+    
+}
+
+
+
+
+
+.ourProgram .crd2 h3{
+    color: green;
+}
+.ourProgram .crd3 img{
+    width:230px;
+    align-items: center;
+   margin-inline: 22px;
+
+}
+.ourProgram .crd3 img:hover{
+    width:250px;
+    background-color: transparent;
+  
+}
+
+
+
+.ourProgram .crd3 h3{
+    color: green;
+}
+*/
+
+
+
+
+/*-------------- plans  ----------*/
+
+.ourPlan{
+    display: flex;
+    justify-content: center;
+   
+  
+    margin-inline: 30px;
+
+}
+.ourPlan .card{
+
+    width :300px;
+    height: 300px;
+    padding :4px;
+    background-color: rgb(36, 31, 31);
+    text-align: center;
+    margin-top: 22px;
+    margin-inline: 30px;
+   
+}
+
+.card:hover {
+    transition:0.5s ease;
+    width:305px;
+    height:350px;
+    background-color: black;
+    font-size:19px;
+    cursor: pointer;
+}
+
+.card i{
+
+    font-size: 22px;
+    margin-top: 22px;
+    color: rgb(240, 165, 17);
+}
+.card h3{
+    margin-top: 22px;
+    color : rgb(10, 212, 10);
+}
+.card h1{
+    margin-top: 22px;
+    color : rgb(10, 212, 10);
+}
+.card p {
+    margin-top: 22px;
+    color: silver;
+}
+.card button{
+    margin-top: 22px;
+    width:130px;
+    height:38px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.card button:hover{
+    border:2px solid white;
+    background-color: green;
+    color:white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+
+
+/*------ blog------*/
+
+
+
+.ourBlog{
+    display: flex;
+    justify-content: center;
+}
+ .ourBlog .blogCard {
+  width:300px;
+  height:400px;
+  margin-inline: 18px;
+  background-color: rgb(75, 71, 71);
+  margin-right:18px;
+  
+}
+.ourBlog .blogCard:hover{
+    width: 330px;
+    background-color: transparent;
+}
+
+
+.blogCard img{
+    width :280px;
+    height: 200px;
+    padding :0px;
+    background-color: rgb(36, 31, 31);
+    text-align: center;
+    margin:top;
+
+
+    /*margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-inline: 30px;*/
+    
+   
+}
+
+.blogCard .blogText{
+    margin-top: 11px;
+    margin-left: 6px;
+    
+}
+.blogCard button{
+
+    margin-top: 22px;
+     width:130px;
+     height:38px;
+     background-color: orange;
+     border: none;
+     color: white;
+     font-size: 18px;
+     text-decoration: none;
+     border-radius: 10px;
+ 
+ }
+.blogCard button:hover{
+    border:2px solid white;
+    background-color: transparent;
+    color:green;
+    cursor: pointer;
+
+}
+.blogCard h3{
+    color:rgb(14, 199, 14);
+    margin-top: 2px;
+}
+.blogCard p{
+    margin-top: 16px;
+    
+}
+ .blogCard{
+    text-align: none;
+    width:100px;
+    padding :11px;
+    background-color: green;
+    color: white;
+   
+ }
+ 
+
+/*.services {
+    text-align: center;
+   
+    font-size: 20px;
+}
+.services span{
+    color: rgb(14, 172, 14);
+}
+
+.plansHead{
+    text-align: center;
+   
+    font-size: 20px; 
+}
+.plansHead span{
+    color: rgb(14, 172, 14);
+    
+}
+
+/*contact*/
+
+.contactText{
+    margin-left: 33px;
+    color:green;
+    margin-top: 134px;
+    font-size: 32px;
+    text-shadow: 2px 3px 4px rgb(5, 121, 5);
+   
+}
+
+
+.contactText img{
+
+        width: 100%;
+        height:50%;
+        margin:auto;
+        margin-top: 0px;
+        
+        margin-bottom: 0px;   
+        background: url("images/contact(2).jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+    
+    
+}
+.contactUs{
+    text-align: center;
+    margin-top: 32px;
+
+}
+.contactUs h1{
+   font-size: 60px;
+   color: green;
+   text-shadow: 2px 3px 4px rgb(5, 121, 5);
+
+}
+.contactUs input{
+
+    width:500px;
+    height:33px;
+    padding:8px;
+    border-radius: 2px;
+    border:none ;
+    outline: none;
+    font-size: 22px;
+    margin-top: 18px;
+}
+.contactUs button{
+    width: 515px;
+    height:40px;
+    color:white;
+    border: none;
+    background-color: rgb(18, 224, 18);
+    font-size: 22px;
+    border-radius: 10px;
+    margin-top: 14px;
+   
+
+}
+.contactUs button:hover{
+    border:2px solid white;
+    background-color: transparent;
+    color:green;
+    cursor: pointer;
+
+
+}
+
+.videoText{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 25px;
+  color: green;
+  text-shadow: 2px 3px 4px rgb(5, 121, 5);
+
+}
+.videoText span{
+    color: white;
+    text-shadow: 2px 2px 4px rgb(245, 243, 243);
+}
+#yVideo{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+  padding:15px;
+
+
+
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    margin-top: 15px;
+    padding:20px;
+    box-shadow: 0px 2px 6px 4px rgb(136, 134, 134);
+}
+.footer .footerText{
+    margin-inline: 2px;
+    margin-top: 23px;
+    margin-right: 14%;;
+}
+.footerText h2{
+    font-size: 30px;
+    color:green;
+    text-shadow: 2px 3px 4px rgb(5, 121, 5);
+}
+.footerText p{
+    margin-top: 11px;
+    color: silver;
+}
+
+.AskQuestion{
+
+    margin: 12px;
+    padding: 10px;
+    
+    
+    
+    }
+    .AskQuestion h4{
+        font-size:30px;
+        color: green;
+        text-shadow: 2px 3px 4px rgb(5, 121, 5);
+    }
+    .AskQuestion input{
+        height: 50px;
+        margin-top: 12px;
+    }
+    .AskQuestion button{
+        margin-top: 12px;
+        background-color: green;
+        border-radius: 10px;
+        color: white;
+        width: 70px;
+        height: 30px;
+    }
+    .AskQuestion button:hover{
+        width:73px;
+        height: 35px;
+        background-color: green;
+        cursor: pointer;
+    }
+.icons  {
+    width :100%;
+    height:60px;
+    align-items: center;
+}
+.icons i {
+    font-size: 30px;
+    margin-top: 22px;
+    margin-left: 33px;
+    padding: 12px;
+    text-align: center;
+    color:green;
+}
